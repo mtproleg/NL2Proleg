@@ -1,0 +1,1146 @@
+[
+  {
+    "input": "On August 1, 2022, Jennifer Lee entered into a purchase agreement with Michael Brown for the purchase of a house for $500,000. However, on August 15, 2022, Jennifer Lee revoked the contract, stating that Jennifer Lee was a minor at the time the agreement was made. Upon further investigation, it was discovered that Michael Brown had threatened Jennifer Lee on August 12, 2022.\n",
+    "entities": {
+      "seller": "michael brown",
+      "buyer": "jennifer lee",
+      "purchase_product": "house",
+      "purchase_price": "$500,000",
+      "purchase_date": "2022 year 08 monty 01 day",
+      "contract_name": "purchase agreement",
+      "rescinder": "jennifer lee",
+      "rescind_date": "2022 year 08 monty 15 day",
+      "threatener": "michael brown",
+      "victim": "jennifer lee",
+      "duress_date": "2022 year 08 monty 12 day",
+      "minor": "jennifer lee",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(jennifer lee,michael brown,house,$500,000,2022 year 08 monty 01 day,purchase agreement)",
+      "minor(jennifer lee)",
+      "manifestation_fact(rescission(purchase agreement),jennifer lee,michael brown,2022 year 08 monty 15 day)",
+      "fact_of_duress(michael brown,jennifer lee,rescission(purchase agreement),2022 year 08 monty 12 day)"
+    ]
+  },
+  {
+    "input": "Aiko Nakamura sold a portable projector to Hiroshi Yoshida at the price of 9000 yen by Sale and Purchase Agreement on 21 July, 2019. But Hiroshi Yoshida rescinded the Agreement because Hiroshi Yoshida is a minor on 23 September, 2019. However, this rescission was made because Aiko Nakamura threatened Hiroshi Yoshida on 21 August, 2019. It is because Aiko Nakamura would like to sell the projector to Victoria Rowley in the higher price.\n",
+    "entities": {
+      "seller": "aiko nakamura",
+      "buyer": "hiroshi yoshida",
+      "purchase_product": "portable projector",
+      "purchase_price": "9000 yen",
+      "purchase_date": "2019 year 07 monty 21 day",
+      "contract_name": "sale and purchase agreement",
+      "rescinder": "hiroshi yoshida",
+      "rescind_date": "2019 year 09 monty 23 day",
+      "threatener": "aiko nakamura",
+      "victim": "hiroshi yoshida",
+      "duress_date": "2019 year 08 monty 21 day",
+      "minor": "hiroshi yoshida",
+      "potential_buyer": "victoria rowley"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(hiroshi yoshida,aiko nakamura,portable projector,9000 yen,2019 year 07 monty 21 day,sale and purchase agreement)",
+      "minor(hiroshi yoshida)",
+      "manifestation_fact(rescission(sale and purchase agreement),hiroshi yoshida,aiko nakamura,2019 year 09 monty 23 day)",
+      "fact_of_duress(aiko nakamura,hiroshi yoshida,rescission(sale and purchase agreement),2019 year 08 monty 21 day)"
+    ]
+  },
+  {
+    "input": "On 29th December, 2006, Bruce T. Pratt sold 500 shares to Maria D. Vasquez at the price of $5,000 by Stock (Shares) Purchase Agreement. But Maria D. Vasquez rescinded the agreement because Maria D. Vasquez is a minor on 27th February, 2007. However, this rescission was made because Bruce T. Pratt threatened Maria D. Vasquez on 29th January, 2007. It is because Bruce T. Pratt would like to sell the share to GCMO Corporation in the higher price.\n",
+    "entities": {
+      "seller": "bruce t. pratt",
+      "buyer": "maria d. vasquez",
+      "purchase_product": "500 shares",
+      "purchase_price": "$5,000",
+      "purchase_date": "2006 year 12 month 29 day",
+      "contract_name": "stock (shares) purchase agreement",
+      "rescinder": "maria d. vasquez",
+      "rescind_date": "2007 year 02 month 27 day",
+      "threatener": "bruce t. pratt",
+      "victim": "maria d. vasquez",
+      "duress_date": "2007 year 01 month 29 day",
+      "minor": "maria d. vasquez",
+      "potential_buyer": "gcmo corporation"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(maria d. vasquez,bruce t. pratt,500 shares,$5,000,2006 year 12 month 29 day,stock (shares) purchase agreement)",
+      "minor(maria d. vasquez)",
+      "manifestation_fact(rescission(stock (shares) purchase agreement),maria d. vasquez,bruce t. pratt,2007 year 02 month 27 day)",
+      "fact_of_duress(bruce t. pratt,maria d. vasquez,rescission(stock (shares) purchase agreement),2007 year 01 month 29 day)"
+    ]
+  },
+  {
+    "input": "Madison Boyle bought the 3 Samsung Desktop Computer Bundles from Adam Andrews at the price of $705,000 by Purchase and Sale Agreement on February 23, 2003. But Madison Boyle rescinded the Agreement because Madison Boyle is a minor on April 23, 2003. However, this rescission was made because Adam Andrews threatened Madison Boyle on March 22, 2003. It is because Adam Andrews would like to sell the computer bundles to Jayson Kim in the higher price.\n",
+    "entities": {
+      "seller": "adam andrews",
+      "buyer": "madison boyle",
+      "purchase_product": "3 samsung desktop computer bundles",
+      "purchase_price": "$705,000",
+      "purchase_date": "2003 year 02 monty 23 day",
+      "contract_name": "purchase and sale agreement",
+      "rescinder": "madison boyle",
+      "rescind_date": "2003 year 04 monty 23 day",
+      "threatener": "adam andrews",
+      "victim": "madison boyle",
+      "duress_date": "2003 year 03 monty 22 day",
+      "minor": "madison boyle",
+      "potential_buyer": "jayson kim"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(madison boyle,adam andrews,3 samsung desktop computer bundles,$705,000,2003 year 02 monty 23 day,purchase and sale agreement)",
+      "minor(madison boyle)",
+      "manifestation_fact(rescission(purchase and sale agreement),madison boyle,adam andrews,2003 year 04 monty 23 day)",
+      "fact_of_duress(adam andrews,madison boyle,rescission(purchase and sale agreement),2003 year 03 monty 22 day)"
+    ]
+  },
+  {
+    "input": "Genevieve T. Santos purchased the 5 bedroom family house from Tia Harper by Real Estate Purchase Agreement on March 18 of 2019. The price for the house was $401,000. But Genevieve T. Santos cancelled the Agreement because Genevieve T. Santos is a minor on May 15 of 2019. However, this cancellation was made because Tia Harper threatened Genevieve T. Santos on April 28 of 2019. It is because Tia Harper would like to sell the house to Margaret Roberts in the higher price.\n",
+    "entities": {
+      "seller": "tia harper",
+      "buyer": "genevieve t. santos",
+      "purchase_product": "5 bedroom family house",
+      "purchase_price": "$401,000",
+      "purchase_date": "2019 year 03 monty 18 day",
+      "contract_name": "real estate purchase agreement",
+      "rescinder": "genevieve t. santos",
+      "rescind_date": "2019 year 05 monty 15 day",
+      "threatener": "tia harper",
+      "victim": "genevieve t. santos",
+      "duress_date": "2019 year 04 monty 28 day",
+      "minor": "genevieve t. santos",
+      "potential_buyer": "margaret roberts"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(genevieve t. santos,tia harper,5 bedroom family house,$401,000,2019 year 03 monty 18 day,real estate purchase agreement)",
+      "minor(genevieve t. santos)",
+      "manifestation_fact(rescission(real estate purchase agreement),genevieve t. santos,tia harper,2019 year 05 monty 15 day)",
+      "fact_of_duress(tia harper,genevieve t. santos,rescission(real estate purchase agreement),2019 year 04 monty 28 day)"
+    ]
+  },
+  {
+    "input": "This Real Estate Purchase Agreement was made on 21 July, 2019, between Aiko Nakamura and Hiroshi Yoshida. Hiroshi Yoshida agrees to purchase the Property by the payment of \u00a549250000.\n",
+    "entities": {
+      "seller": "aiko nakamura",
+      "buyer": "hiroshi yoshida",
+      "purchase_product": "property",
+      "purchase_price": "\u00a549250000",
+      "purchase_date": "2019 year 07 monty 21 day",
+      "contract_name": "real estate purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(hiroshi yoshida,aiko nakamura,property,\u00a549250000,2019 year 07 monty 21 day,real estate purchase agreement)"
+    ]
+  },
+  {
+    "input": "This Purchase Agreement is entered into as of February 23, 2003, by and between Wallace and Chapman. Chapman agrees to sell and Wallace agrees to purchase the Rose Condominium. Buyer will pay Seller for the Condominium and for all obligations specified in this agreement, if any, as the full and complete purchase price including any applicable sales tax, the sum of $175000000.\n",
+    "entities": {
+      "seller": "chapman",
+      "buyer": "wallace",
+      "purchase_product": "rose condominium",
+      "purchase_price": "$175000000",
+      "purchase_date": "2003 year 02 month 23 day",
+      "contract_name": "purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(wallace,chapman,rose condominium,$175000000,2003 year 02 month 23 day,purchase agreement)"
+    ]
+  },
+  {
+    "input": "John and Bob entered into a house purchase agreement. The house is located in Tokyo. John paid 230000 dollars by cash.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "john",
+      "purchase_product": "house",
+      "purchase_price": "230000 dollars",
+      "purchase_date": "_",
+      "contract_name": "house purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(john,bob,house,230000 dollars,_,house purchase agreement)"
+    ]
+  },
+  {
+    "input": "Kenneth C. Lancaster bought the 78,000 sf clinic facility from Ruby Day by Sale and Purchase Agreement on 21st January, 2013. The price for the facility was 360,101.00 \u00a3. But Kenneth C. Lancaster cancelled the Agreement on 21st March, 2013. This cancellation was made because Ruby Day threatened Kenneth C. Lancaster on 21st February, 2013. It is because Ruby Day would like to sell the facility to Bailey Reyes in the higher price.\n",
+    "entities": {
+      "seller": "ruby day",
+      "buyer": "kenneth c. lancaster",
+      "purchase_product": "78,000 sf clinic facility",
+      "purchase_price": "360,101.00 \u00a3",
+      "purchase_date": "2013 year 01 monty 21 day",
+      "contract_name": "sale and purchase agreement",
+      "rescinder": "kenneth c. lancaster",
+      "rescind_date": "2013 year 03 monty 21 day",
+      "threatener": "ruby day",
+      "victim": "kenneth c. lancaster",
+      "duress_date": "2013 year 02 monty 21 day",
+      "minor": "_",
+      "potential_buyer": "bailey reyes"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(kenneth c. lancaster,ruby day,78,000 sf clinic facility,360,101.00 \u00a3,2013 year 01 monty 21 day,sale and purchase agreement)",
+      "manifestation_fact(rescission(sale and purchase agreement),kenneth c. lancaster,ruby day,2013 year 03 monty 21 day)",
+      "fact_of_duress(ruby day,kenneth c. lancaster,rescission(sale and purchase agreement),2013 year 02 monty 21 day)"
+    ]
+  },
+  {
+    "input": "On 27th December, 2006, Jack Black purchased the used car from Ashleigh Worley at the price of JPY 120,000 by Used Car Sales Agreement. But, On 10 January, 2007, Jack Black cancelled the Agreement because of Ashleigh Worley's duress.\n",
+    "entities": {
+      "seller": "ashleigh worley",
+      "buyer": "jack black",
+      "purchase_product": "used car",
+      "purchase_price": "JPY 120,000",
+      "purchase_date": "2006 year 12 monty 27 day",
+      "contract_name": "used car sales agreement",
+      "rescinder": "jack black",
+      "rescind_date": "2007 year 01 monty 10 day",
+      "threatener": "ashleigh worley",
+      "victim": "jack black",
+      "duress_date": "2007 year 01 monty 10 day",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(jack black,ashleigh worley,used car,JPY 120,000,2006 year 12 monty 27 day,used car sales agreement)",
+      "manifestation_fact(rescission(used car sales agreement),jack black,ashleigh worley,2007 year 01 monty 10 day)",
+      "fact_of_duress(ashleigh worley,jack black,rescission(used car sales agreement),2007 year 01 monty 10 day)"
+    ]
+  },
+  {
+    "input": "Aiko Nakamura established a purchase contract with Victoria Rowley to buy 2 acres of Texas farm, on 21 July, 2019. The price of the farm is $385,000. Aiko Nakamura rescinded the contract by a fraud by the thrid party, Hiroshi Yoshida, on 21 August, 2019. However, the rescission was actually made due to Victoria Rowley's duress on 29 July, 2019 since Victoria Rowley would like to sell the farm to Michael M. Conti because Michael M. Conti said that he would like to pay more to purchase the farm than Aiko Nakamura pays.\n",
+    "entities": {
+      "seller": "victoria rowley",
+      "buyer": "aiko nakamura",
+      "purchase_product": "2 acres of texas farm",
+      "purchase_price": "$385,000",
+      "purchase_date": "2019 year 07 monty 21 day",
+      "contract_name": "purchase contract",
+      "rescinder": "aiko nakamura",
+      "rescind_date": "2019 year 08 monty 21 day",
+      "threatener": "victoria rowley",
+      "victim": "aiko nakamura",
+      "duress_date": "2019 year 07 monty 29 day",
+      "minor": "_",
+      "potential_buyer": "michael m. conti"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(aiko nakamura,victoria rowley,2 acres of texas farm,$385,000,2019 year 07 monty 21 day,purchase contract)",
+      "manifestation_fact(rescission(purchase contract),aiko nakamura,victoria rowley,2019 year 08 monty 21 day)",
+      "fact_of_duress(victoria rowley,aiko nakamura,rescission(purchase contract),2019 year 07 monty 29 day)"
+    ]
+  },
+  {
+    "input": "On 27/May/2006, Jack Black purchased a vacant land from Ashleigh Worley at the price of JPY 120000 by a Land Purchase Agreement. However, Jack Black was a minor. Therefore, on 10/June/2006, Jack Black rescinded the agreement.\n",
+    "entities": {
+      "seller": "ashleigh worley",
+      "buyer": "jack black",
+      "purchase_product": "vacant land",
+      "purchase_price": "JPY 120000",
+      "purchase_date": "2006 year 05 month 27 day",
+      "contract_name": "land purchase agreement",
+      "rescinder": "jack black",
+      "rescind_date": "2006 year 06 month 10 day",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "jack black",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(jack black,ashleigh worley,vacant land,JPY 120000,2006 year 05 month 27 day,land purchase agreement)",
+      "minor(jack black)",
+      "manifestation_fact(rescission(land purchase agreement),jack black,ashleigh worley,2006 year 06 month 10 day)"
+    ]
+  },
+  {
+    "input": "Jessica purchases a gaming console from Robert at the cost of 5000 CAD through agreement4 on 5/November/2021, but Jessica canceled the agreement4 on 15/November/2021.\n",
+    "entities": {
+      "seller": "robert",
+      "buyer": "jessica",
+      "purchase_product": "gaming console",
+      "purchase_price": "5000 CAD",
+      "purchase_date": "2021 year 11 monty 05 day",
+      "contract_name": "agreement4",
+      "rescinder": "jessica",
+      "rescind_date": "2021 year 11 monty 15 day",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(jessica,robert,gaming console,5000 CAD,2021 year 11 monty 05 day,agreement4)",
+      "manifestation_fact(rescission(agreement4),jessica,robert,2021 year 11 monty 15 day)"
+    ]
+  },
+  {
+    "input": "John and Carlos enter into a purchase contract on April 12, 2020. John pays 234000 dollars for the car.\n",
+    "entities": {
+      "seller": "carlos",
+      "buyer": "john",
+      "purchase_product": "car",
+      "purchase_price": "234000 dollars",
+      "purchase_date": "2020 year 04 monty 12 day",
+      "contract_name": "purchase contract",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(john,carlos,car,234000 dollars,2020 year 04 monty 12 day,purchase contract)"
+    ]
+  },
+  {
+    "input": "John Smith entered into a house purchase agreement with David Martin. John Smith paid $230000 for the house on 12 July, 2020.\n",
+    "entities": {
+      "seller": "david martin",
+      "buyer": "john smith",
+      "purchase_product": "house",
+      "purchase_price": "$230000",
+      "purchase_date": "2020 year 07 monty 12 day",
+      "contract_name": "house purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(john smith,david martin,house,$230000,2020 year 07 monty 12 day,house purchase agreement)"
+    ]
+  },
+  {
+    "input": "This purchase agreement is entered into by and between John Smith and David Martin, on 15 June, 2020. John Smith shall pay the sum of $234000 (two hundred and thirty-four thousand dollars), in consideration for the purchase of an apartment.\n",
+    "entities": {
+      "seller": "david martin",
+      "buyer": "john smith",
+      "purchase_product": "apartment",
+      "purchase_price": "$234000",
+      "purchase_date": "2020 year 06 monty 15 day",
+      "contract_name": "purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(john smith,david martin,an apartment,$234000,2020 year 06 monty 15 day,purchase agreement)"
+    ]
+  },
+  {
+    "input": "A purchase agreement is made by and between Marry Smith and Dennis Martin, on 15 June, 2020. Marry Smith shall pay 345000 dollars, in consideration for the purchase of a used car.\n",
+    "entities": {
+      "seller": "dennis martin",
+      "buyer": "marry smith",
+      "purchase_product": "used car",
+      "purchase_price": "345000 dollars",
+      "purchase_date": "2020 year 06 month 15 day",
+      "contract_name": "purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(marry smith,dennis martin,used car,345000 dollars,2020 year 06 month 15 day,purchase agreement)"
+    ]
+  },
+  {
+    "input": "Carlos and Grace established a purchase contract on 10 May, 2022. Carlos paid 234000 dollars.\n",
+    "entities": {
+      "seller": "grace",
+      "buyer": "carlos",
+      "purchase_product": "_",
+      "purchase_price": "234000 dollars",
+      "purchase_date": "2022 year 05 monty 10 day",
+      "contract_name": "purchase contract",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(carlos,grace,_,234000 dollars,2022 year 05 monty 10 day,purchase contract)"
+    ]
+  },
+  {
+    "input": "Madison Boyle entered into a phone purchase agreement with Adam Andrews. Adam Andrews paid $230,000 for the phone on 12 July, 2020.\n",
+    "entities": {
+      "seller": "madison boyle",
+      "buyer": "adam andrews",
+      "purchase_product": "phone",
+      "purchase_price": "$230,000",
+      "purchase_date": "2020 year 07 monty 12 day",
+      "contract_name": "phone purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(adam andrews,madison boyle,phone,$230,000,2020 year 07 monty 12 day,phone purchase agreement)"
+    ]
+  },
+  {
+    "input": "David and Marry made a shares purchase agreement on 21/June/2016. Marry paid 230000 U.S. dollars by cash.\n",
+    "entities": {
+      "seller": "david",
+      "buyer": "marry",
+      "purchase_product": "shares",
+      "purchase_price": "230000 U.S. dollars",
+      "purchase_date": "2016 year 06 monty 21 day",
+      "contract_name": "shares purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(marry,david,shares,230000 U.S. dollars,2016 year 06 monty 21 day,shares purchase agreement)"
+    ]
+  },
+  {
+    "input": "Bob and Carlos entered into a share purchase agreement on July 12, 2021, with Bob transferring $3230000 for 500 shares through JP bank.\n",
+    "entities": {
+      "seller": "carlos",
+      "buyer": "bob",
+      "purchase_product": "500 shares",
+      "purchase_price": "$3230000",
+      "purchase_date": "2021 year 07 monty 12 day",
+      "contract_name": "share purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(bob,carlos,500 shares,$3230000,2021 year 07 monty 12 day,share purchase agreement)"
+    ]
+  },
+  {
+    "input": "Marry entered into a phone purchase agreement with Smith on 21/April/2020. Marry paid 690000 dollars.\n",
+    "entities": {
+      "seller": "smith",
+      "buyer": "marry",
+      "purchase_product": "phone",
+      "purchase_price": "690000 dollars",
+      "purchase_date": "2020 year 04 monty 21 day",
+      "contract_name": "phone purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(marry,smith,phone,690000 dollars,2020 year 04 monty 21 day,a phone purchase agreement)"
+    ]
+  },
+  {
+    "input": "Bob entered into a purchase agreement with Alice. Alice paid $230,000 for the house on 12 July, 2020.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "alice",
+      "purchase_product": "house",
+      "purchase_price": "$230,000",
+      "purchase_date": "2020 year 07 monty 12 day",
+      "contract_name": "purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(alice,bob,house,$230,000,2020 year 07 monty 12 day,purchase agreement)"
+    ]
+  },
+  {
+    "input": "John established a share purchase agreement with Marry. John paid $230,000 for the share on 12 May, 2020.\n",
+    "entities": {
+      "seller": "john",
+      "buyer": "marry",
+      "purchase_product": "share",
+      "purchase_price": "$230,000",
+      "purchase_date": "2020 year 05 monty 12 day",
+      "contract_name": "share purchase agreement",
+      "rescinder": "_",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(marry,john,share,$230,000,2020 year 05 monty 12 day,share purchase agreement)"
+    ]
+  },
+  {
+    "input": "A sale and purchase agreement was made by and between Alice and John, on 10 April, 2022. John agreed to pay 28900000 dollars, in consideration for the purchase of a freehold land. However, on 25 April, 2022, John rescind the agreement. It is because Alice threatened to John on 20 April, 2022.\n",
+    "entities": {
+      "seller": "alice",
+      "buyer": "john",
+      "purchase_product": "freehold land",
+      "purchase_price": "28900000 dollars",
+      "purchase_date": "2022 year 04 monty 10 day",
+      "contract_name": "sale and purchase agreement",
+      "rescinder": "john",
+      "rescind_date": "2022 year 04 monty 25 day",
+      "threatener": "alice",
+      "victim": "john",
+      "duress_date": "2022 year 04 monty 20 day",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(john,alice,freehold land,28900000 dollars,2022 year 04 monty 10 day,sale and purchase agreement)",
+      "manifestation_fact(rescission(sale and purchase agreement),john,alice,2022 year 04 monty 25 day)",
+      "fact_of_duress(alice,john,rescission(sale and purchase agreement),2022 year 04 monty 20 day)"
+    ]
+  },
+  {
+    "input": "bob sold this_machine to chuck at the price of 12237630 dollars by contract3 on 08/March/1998. But chuck rescinded contract3 because chuck is a minor on 27/August/2026. However, this rescission was made because bob threatened chuck on 21/March/2001. It is because bob would like to sell this_machine to frank in the higher price.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "chuck",
+      "purchase_product": "this_machine",
+      "purchase_price": "12237630 dollars",
+      "purchase_date": "1998 year 03 monty 08 day",
+      "contract_name": "contract3",
+      "rescinder": "chuck",
+      "rescind_date": "2026 year 08 monty 27 day",
+      "threatener": "bob",
+      "victim": "chuck",
+      "duress_date": "2001 year 03 monty 21 day",
+      "minor": "chuck",
+      "potential_buyer": "frank"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(chuck,bob,this_machine,12237630 dollars,1998 year 03 monty 08 day,contract3)",
+      "minor(chuck)",
+      "manifestation_fact(rescission(contract3),chuck,bob,2026 year 08 monty 27 day)",
+      "fact_of_duress(bob,chuck,rescission(contract3),2001 year 03 monty 21 day)"
+    ]
+  },
+  {
+    "input": "carol buys this_phone from grace at the price of 11084660 dollars by agreement0 on 13/October/2007. But carol rescinded agreement0 because carol is a minor on 30/September/2023. However, this rescission was made because grace threatened carol on 20/October/2008. It is because grace would like to sell this_phone to erin in the higher price.\n",
+    "entities": {
+      "seller": "grace",
+      "buyer": "carol",
+      "purchase_product": "this_phone",
+      "purchase_price": "11084660 dollars",
+      "purchase_date": "2007 year 10 monty 13 day",
+      "contract_name": "agreement0",
+      "rescinder": "carol",
+      "rescind_date": "2023 year 09 monty 30 day",
+      "threatener": "grace",
+      "victim": "carol",
+      "duress_date": "2008 year 10 monty 20 day",
+      "minor": "carol",
+      "potential_buyer": "erin"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(carol,grace,this_phone,11084660 dollars,2007 year 10 monty 13 day,agreement0)",
+      "minor(carol)",
+      "manifestation_fact(rescission(agreement0),carol,grace,2023 year 09 monty 30 day)",
+      "fact_of_duress(grace,carol,rescission(agreement0),2008 year 10 monty 20 day)"
+    ]
+  },
+  {
+    "input": "davis bought this_algorithm from dave at the price of 17266270 dollars by agreement2 on 15/November/1993. But davis rescinded agreement2 because davis is a minor on 06/December/2029. However, this rescission was made because dave threatened davis on 06/March/2011. It is because dave would like to sell this_algorithm to dan in the higher price.\n",
+    "entities": {
+      "seller": "dave",
+      "buyer": "davis",
+      "purchase_product": "this_algorithm",
+      "purchase_price": "17266270 dollars",
+      "purchase_date": "1993 year 11 monty 15 day",
+      "contract_name": "agreement2",
+      "rescinder": "davis",
+      "rescind_date": "2029 year 12 monty 06 day",
+      "threatener": "dave",
+      "victim": "davis",
+      "duress_date": "2011 year 03 monty 06 day",
+      "minor": "davis",
+      "potential_buyer": "dan"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(davis,dave,this_algorithm,17266270 dollars,1993 year 11 monty 15 day,agreement2)",
+      "minor(davis)",
+      "manifestation_fact(rescission(agreement2),davis,dave,2029 year 12 monty 06 day)",
+      "fact_of_duress(dave,davis,rescission(agreement2),2011 year 03 monty 06 day)"
+    ]
+  },
+  {
+    "input": "faythe purchased this_house from chuck at the price of 6091010 dollars by commitment3 on 18/October/2009. But faythe rescinded commitment3 because faythe is a minor on 24/June/2028. However, this rescission was made because chuck threatened faythe on 10/April/2026. It is because chuck would like to sell this_machine to faythe in the higher price.\n",
+    "entities": {
+      "seller": "chuck",
+      "buyer": "faythe",
+      "purchase_product": "this_house",
+      "purchase_price": "6091010 dollars",
+      "purchase_date": "2009 year 10 monty 18 day",
+      "contract_name": "commitment3",
+      "rescinder": "faythe",
+      "rescind_date": "2028 year 06 monty 24 day",
+      "threatener": "chuck",
+      "victim": "faythe",
+      "duress_date": "2026 year 04 monty 10 day",
+      "minor": "faythe",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(faythe,chuck,this_house,6091010 dollars,2009 year 10 monty 18 day,commitment3)",
+      "minor(faythe)",
+      "manifestation_fact(rescission(commitment3),faythe,chuck,2028 year 06 monty 24 day)",
+      "fact_of_duress(chuck,faythe,rescission(commitment3),2026 year 04 monty 10 day)"
+    ]
+  },
+  {
+    "input": "erin purchases this_table from alice at the price of 8892310 dollars by agreement3 on 29/December/1999. But erin rescinded agreement3 because erin is a minor on 31/January/2018. However, this rescission was made because alice threatened erin on 12/September/2001. It is because alice would like to sell this_table to chuck in the higher price.\n",
+    "entities": {
+      "seller": "alice",
+      "buyer": "erin",
+      "purchase_product": "this_table",
+      "purchase_price": "8892310 dollars",
+      "purchase_date": "1999 year 12 monty 29 day",
+      "contract_name": "agreement3",
+      "rescinder": "erin",
+      "rescind_date": "2018 year 01 monty 31 day",
+      "threatener": "alice",
+      "victim": "erin",
+      "duress_date": "2001 year 09 monty 12 day",
+      "minor": "erin",
+      "potential_buyer": "chuck"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(erin,alice,this_table,8892310 dollars,1999 year 12 monty 29 day,agreement3)",
+      "minor(erin)",
+      "manifestation_fact(rescission(agreement3),erin,alice,2018 year 01 monty 31 day)",
+      "fact_of_duress(alice,erin,rescission(agreement3),2001 year 09 monty 12 day)"
+    ]
+  },
+  {
+    "input": "erin sells this_phone to carlos at the price of 14071860 dollars by commitment1 on 10/March/1992. But carlos rescinded commitment1 because carlos is a minor on 16/May/2027. However, this rescission was made because erin threatened carlos on 26/July/1994. It is because erin would like to sell this_phone to craig in the higher price.\n",
+    "entities": {
+      "seller": "erin",
+      "buyer": "carlos",
+      "purchase_product": "this_phone",
+      "purchase_price": "14071860 dollars",
+      "purchase_date": "1992 year 03 monty 10 day",
+      "contract_name": "commitment1",
+      "rescinder": "carlos",
+      "rescind_date": "2027 year 05 monty 16 day",
+      "threatener": "erin",
+      "victim": "carlos",
+      "duress_date": "1994 year 07 monty 26 day",
+      "minor": "carlos",
+      "potential_buyer": "craig"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(carlos,erin,this_phone,14071860 dollars,1992 year 03 monty 10 day,commitment1)",
+      "minor(carlos)",
+      "manifestation_fact(rescission(commitment1),carlos,erin,2027 year 05 monty 16 day)",
+      "fact_of_duress(erin,carlos,rescission(commitment1),1994 year 07 monty 26 day)"
+    ]
+  },
+  {
+    "input": "carol sells this_real_estate to eve at the price of 6798270 dollars by commitment0 on 04/June/2003. But eve rescinded commitment0 because eve is a minor on 01/July/2019. However, this rescission was made because carol threatened eve on 08/February/2013. It is because carol would like to sell this_real_estate to carlos in the higher price.\n",
+    "entities": {
+      "seller": "carol",
+      "buyer": "eve",
+      "purchase_product": "this_real_estate",
+      "purchase_price": "6798270 dollars",
+      "purchase_date": "2003 year 06 monty 04 day",
+      "contract_name": "commitment0",
+      "rescinder": "eve",
+      "rescind_date": "2019 year 07 monty 01 day",
+      "threatener": "carol",
+      "victim": "eve",
+      "duress_date": "2013 year 02 monty 08 day",
+      "minor": "eve",
+      "potential_buyer": "carlos"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(eve,carol,this_real_estate,6798270 dollars,2003 year 06 monty 04 day,commitment0)",
+      "minor(eve)",
+      "manifestation_fact(rescission(commitment0),eve,carol,2019 year 07 monty 01 day)",
+      "fact_of_duress(carol,eve,rescission(commitment0),2013 year 02 monty 08 day)"
+    ]
+  },
+  {
+    "input": "bob sold this_phone to carlos at the price of 11943530 dollars by contract0 on 19/February/1997. But carlos rescinded contract0 because carlos is a minor on 16/October/2029. However, this rescission was made because bob threatened carlos on 15/July/2029. It is because bob would like to sell this_phone to davis in the higher price.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "carlos",
+      "purchase_product": "this_phone",
+      "purchase_price": "11943530 dollars",
+      "purchase_date": "1997 year 02 monty 19 day",
+      "contract_name": "contract0",
+      "rescinder": "carlos",
+      "rescind_date": "2029 year 10 monty 16 day",
+      "threatener": "bob",
+      "victim": "carlos",
+      "duress_date": "2029 year 07 monty 15 day",
+      "minor": "carlos",
+      "potential_buyer": "davis"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(carlos,bob,this_phone,11943530 dollars,1997 year 02 monty 19 day,contract0)",
+      "minor(carlos)",
+      "manifestation_fact(rescission(contract0),carlos,bob,2029 year 10 monty 16 day)",
+      "fact_of_duress(bob,carlos,rescission(contract0),2029 year 07 monty 15 day)"
+    ]
+  },
+  {
+    "input": "davis purchases this_program from grace at the price of 4344190 dollars by commitment2 on 25/February/1994. But davis rescinded commitment2 because davis is a minor on 17/July/2009. However, this rescission was made because grace threatened davis on 11/June/1999. It is because grace would like to sell this_program to chuck in the higher price.\n",
+    "entities": {
+      "seller": "grace",
+      "buyer": "davis",
+      "purchase_product": "this_program",
+      "purchase_price": "4344190 dollars",
+      "purchase_date": "1994 year 02 monty 25 day",
+      "contract_name": "commitment2",
+      "rescinder": "davis",
+      "rescind_date": "2009 year 07 monty 17 day",
+      "threatener": "grace",
+      "victim": "davis",
+      "duress_date": "1999 year 06 monty 11 day",
+      "minor": "davis",
+      "potential_buyer": "chuck"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(davis,grace,this_program,4344190 dollars,1994 year 02 monty 25 day,commitment2)",
+      "minor(davis)",
+      "manifestation_fact(rescission(commitment2),davis,grace,2009 year 07 monty 17 day)",
+      "fact_of_duress(grace,davis,rescission(commitment2),1999 year 06 monty 11 day)"
+    ]
+  },
+  {
+    "input": "eve sold this_car to faythe at the price of 9296030 dollars by agreement0 on 30/April/2013. But faythe rescinded agreement0 because faythe is a minor on 22/September/2030. However, this rescission was made because eve threatened faythe on 27/April/2029. It is because eve would like to sell this_art to dave in the higher price.\n",
+    "entities": {
+      "seller": "eve",
+      "buyer": "faythe",
+      "purchase_product": "this_car",
+      "purchase_price": "9296030 dollars",
+      "purchase_date": "2013 year 04 monty 30 day",
+      "contract_name": "agreement0",
+      "rescinder": "faythe",
+      "rescind_date": "2030 year 09 monty 22 day",
+      "threatener": "eve",
+      "victim": "faythe",
+      "duress_date": "2029 year 04 monty 27 day",
+      "minor": "faythe",
+      "potential_buyer": "dave"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(faythe,eve,this_car,9296030 dollars,2013 year 04 monty 30 day,agreement0)",
+      "minor(faythe)",
+      "manifestation_fact(rescission(agreement0),faythe,eve,2030 year 09 monty 22 day)",
+      "fact_of_duress(eve,faythe,rescission(agreement0),2029 year 04 monty 27 day)"
+    ]
+  },
+  {
+    "input": "chuck bought this_art from dave at the price of 14059210 dollars by agreement1 on 12/April/1995. But chuck rescinded agreement1 because chuck is a minor on 17/March/2011. However, this rescission was made because dave threatened chuck on 04/February/1996. It is because dave would like to sell this_art to chard in the higher price.\n",
+    "entities": {
+      "seller": "dave",
+      "buyer": "chuck",
+      "purchase_product": "this_art",
+      "purchase_price": "14059210 dollars",
+      "purchase_date": "1995 year 04 monty 12 day",
+      "contract_name": "agreement1",
+      "rescinder": "chuck",
+      "rescind_date": "2011 year 03 monty 17 day",
+      "threatener": "dave",
+      "victim": "chuck",
+      "duress_date": "1996 year 02 monty 04 day",
+      "minor": "chuck",
+      "potential_buyer": "chard"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(chuck,dave,this_art,14059210 dollars,1995 year 04 monty 12 day,agreement1)",
+      "minor(chuck)",
+      "manifestation_fact(rescission(agreement1),chuck,dave,2011 year 03 monty 17 day)",
+      "fact_of_duress(dave,chuck,rescission(agreement1),1996 year 02 monty 04 day)"
+    ]
+  },
+  {
+    "input": "grace bought this_table from dan at the price of 17693420 dollars by commitment2 on 22/September/1999. But grace rescinded commitment2 because grace is a minor on 21/March/2019. However, this rescission was made because dan threatened grace on 23/July/2013. It is because dan would like to sell this_table to faythe in the higher price.\n",
+    "entities": {
+      "seller": "dan",
+      "buyer": "grace",
+      "purchase_product": "this_table",
+      "purchase_price": "17693420 dollars",
+      "purchase_date": "1999 year 09 monty 22 day",
+      "contract_name": "commitment2",
+      "rescinder": "grace",
+      "rescind_date": "2019 year 03 monty 21 day",
+      "threatener": "dan",
+      "victim": "grace",
+      "duress_date": "2013 year 07 monty 23 day",
+      "minor": "grace",
+      "potential_buyer": "faythe"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(grace,dan,this_table,17693420 dollars,1999 year 09 monty 22 day,commitment2)",
+      "minor(grace)",
+      "manifestation_fact(rescission(commitment2),grace,dan,2019 year 03 monty 21 day)",
+      "fact_of_duress(dan,grace,rescission(commitment2),2013 year 07 monty 23 day)"
+    ]
+  },
+  {
+    "input": "dave sold this_program to chuck at the price of 14059210 dollars by agreement1 on 12/April/1995. But chuck rescinded agreement1 because chuck is a minor on 17/March/2011. However, this rescission was made because dave threatened chuck on 04/February/1996. It is because dave would like to sell this_program to chard in the higher price.\n",
+    "entities": {
+      "seller": "dave",
+      "buyer": "chuck",
+      "purchase_product": "this_program",
+      "purchase_price": "14059210 dollars",
+      "purchase_date": "1995 year 04 month 12 day",
+      "contract_name": "agreement1",
+      "rescinder": "chuck",
+      "rescind_date": "2011 year 03 month 17 day",
+      "threatener": "dave",
+      "victim": "chuck",
+      "duress_date": "1996 year 02 month 04 day",
+      "minor": "chuck",
+      "potential_buyer": "chard"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(chuck,dave,this_program,14059210 dollars,1995 year 04 month 12 day,agreement1)",
+      "minor(chuck)",
+      "manifestation_fact(rescission(agreement1),chuck,dave,2011 year 03 month 17 day)",
+      "fact_of_duress(dave,chuck,rescission(agreement1),1996 year 02 month 04 day)"
+    ]
+  },
+  {
+    "input": "craig sells this_computer to chuck at the price of 17946430 dollars by contract1 on 18/April/2000. But chuck rescinded contract1 because chuck is a minor on 24/January/2012. However, this rescission was made because craig threatened chuck on 13/October/2000. It is because craig would like to sell this_computer to bob in the higher price.\n",
+    "entities": {
+      "seller": "craig",
+      "buyer": "chuck",
+      "purchase_product": "this_computer",
+      "purchase_price": "17946430 dollars",
+      "purchase_date": "2000 year 04 month 18 day",
+      "contract_name": "contract1",
+      "rescinder": "chuck",
+      "rescind_date": "2012 year 01 month 24 day",
+      "threatener": "craig",
+      "victim": "chuck",
+      "duress_date": "2000 year 10 month 13 day",
+      "minor": "chuck",
+      "potential_buyer": "bob"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(chuck,craig,this_computer,17946430 dollars,2000 year 04 month 18 day,contract1)",
+      "minor(chuck)",
+      "manifestation_fact(rescission(contract1),chuck,craig,2012 year 01 month 24 day)",
+      "fact_of_duress(craig,chuck,rescission(contract1),2000 year 10 month 13 day)"
+    ]
+  },
+  {
+    "input": "carlos sold this_table to craig at the price of 10073330 dollars by commitment1 on 20/March/2015. But craig rescinded commitment1 because craig is a minor on 29/October/2030. However, this rescission was made because carlos threatened craig on 29/March/2029. It is because carlos would like to sell this_table to carol in the higher price.\n",
+    "entities": {
+      "seller": "carlos",
+      "buyer": "craig",
+      "purchase_product": "this_table",
+      "purchase_price": "10073330 dollars",
+      "purchase_date": "2015 year 03 monty 20 day",
+      "contract_name": "commitment1",
+      "rescinder": "craig",
+      "rescind_date": "2030 year 10 monty 29 day",
+      "threatener": "carlos",
+      "victim": "craig",
+      "duress_date": "2029 year 03 monty 29 day",
+      "minor": "craig",
+      "potential_buyer": "carol"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(craig,carlos,this_table,10073330 dollars,2015 year 03 monty 20 day,commitment1)",
+      "minor(craig)",
+      "manifestation_fact(rescission(commitment1),craig,carlos,2030 year 10 monty 29 day)",
+      "fact_of_duress(carlos,craig,rescission(commitment1),2029 year 03 monty 29 day)"
+    ]
+  },
+  {
+    "input": "dan bought this_real_estate from carlos at the price of 3122750 dollars by agreement2 on 07/September/2012. But dan rescinded agreement2 because dan is a minor on 05/August/2030. However, this rescission was made because carlos threatened dan on 30/August/2028. It is because carlos would like to sell this_real_estate to davis in the higher price.\n",
+    "entities": {
+      "seller": "carlos",
+      "buyer": "dan",
+      "purchase_product": "this_real_estate",
+      "purchase_price": "3122750 dollars",
+      "purchase_date": "2012 year 09 monty 07 day",
+      "contract_name": "agreement2",
+      "rescinder": "dan",
+      "rescind_date": "2030 year 08 monty 05 day",
+      "threatener": "carlos",
+      "victim": "dan",
+      "duress_date": "2028 year 08 monty 30 day",
+      "minor": "dan",
+      "potential_buyer": "davis"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(dan,carlos,this_real_estate,3122750 dollars,2012 year 09 monty 07 day,agreement2)",
+      "minor(dan)",
+      "manifestation_fact(rescission(agreement2),dan,carlos,2030 year 08 monty 05 day)",
+      "fact_of_duress(carlos,dan,rescission(agreement2),2028 year 08 monty 30 day)"
+    ]
+  },
+  {
+    "input": "faythe bought this_phone from chard at the price of 18600660 dollars by contract0 on 25/September/2025. But faythe rescinded contract0 because faythe is a minor on 02/November/2030. However, this rescission was made because chard threatened faythe on 22/August/2027. It is because chard would like to sell this_phone to carol in the higher price.\n",
+    "entities": {
+      "seller": "chard",
+      "buyer": "faythe",
+      "purchase_product": "this_phone",
+      "purchase_price": "18600660 dollars",
+      "purchase_date": "2025 year 09 monty 25 day",
+      "contract_name": "contract0",
+      "rescinder": "faythe",
+      "rescind_date": "2030 year 11 monty 02 day",
+      "threatener": "chard",
+      "victim": "faythe",
+      "duress_date": "2027 year 08 monty 22 day",
+      "minor": "faythe",
+      "potential_buyer": "carol"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(faythe,chard,this_phone,18600660 dollars,2025 year 09 monty 25 day,contract0)",
+      "minor(faythe)",
+      "manifestation_fact(rescission(contract0),faythe,chard,2030 year 11 monty 02 day)",
+      "fact_of_duress(chard,faythe,rescission(contract0),2027 year 08 monty 22 day)"
+    ]
+  },
+  {
+    "input": "bob sold this_phone to eve at the price of 17089800 dollars by contract2 on 05/January/2012. But eve rescinded contract2 because eve is a minor on 15/March/2017. However, this rescission was made because bob threatened eve on 18/May/2016. It is because bob would like to sell this_phone to davis in the higher price.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "eve",
+      "purchase_product": "this_phone",
+      "purchase_price": "17089800 dollars",
+      "purchase_date": "2012 year 01 month 05 day",
+      "contract_name": "contract2",
+      "rescinder": "eve",
+      "rescind_date": "2017 year 03 month 15 day",
+      "threatener": "bob",
+      "victim": "eve",
+      "duress_date": "2016 year 05 month 18 day",
+      "minor": "eve",
+      "potential_buyer": "davis"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(eve,bob,this_phone,17089800 dollars,2012 year 01 month 05 day,contract2)",
+      "minor(eve)",
+      "manifestation_fact(rescission(contract2),eve,bob,2017 year 03 month 15 day)",
+      "fact_of_duress(bob,eve,rescission(contract2),2016 year 05 month 18 day)"
+    ]
+  },
+  {
+    "input": "charlie bought this_computer from bob at the price of 14728970 dollars by agreement1 on 03/August/2011. charlie was a minor on 03/August/2011. Therefore, charlie rescinded agreement1 15/September/2019.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "charlie",
+      "purchase_product": "this_computer",
+      "purchase_price": "14728970 dollars",
+      "purchase_date": "2011 year 08 monty 03 day",
+      "contract_name": "agreement1",
+      "rescinder": "charlie",
+      "rescind_date": "2019 year 09 monty 15 day",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "charlie",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(charlie,bob,this_computer,14728970 dollars,2011 year 08 monty 03 day,agreement1)",
+      "minor(charlie)",
+      "manifestation_fact(rescission(agreement1),charlie,bob,2019 year 09 monty 15 day)"
+    ]
+  },
+  {
+    "input": "John and Marry entered into a phone purchase contract at the price of 12237630 dollars by contract1 on 08/March/1998. But Marry rescinded contract1 because John threatened her on 21/March/2001. It is because John would like to sell the phone to Frank in the higher price.\n",
+    "entities": {
+      "seller": "john",
+      "buyer": "marry",
+      "purchase_product": "phone",
+      "purchase_price": "12237630 dollars",
+      "purchase_date": "1998 year 03 monty 08 day",
+      "contract_name": "contract1",
+      "rescinder": "marry",
+      "rescind_date": "2001 year 03 monty 21 day",
+      "threatener": "john",
+      "victim": "marry",
+      "duress_date": "2001 year 03 monty 21 day",
+      "minor": "_",
+      "potential_buyer": "frank"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(marry,john,phone,12237630 dollars,1998 year 03 monty 08 day,contract1)",
+      "manifestation_fact(rescission(contract1),marry,john,2001 year 03 monty 21 day)",
+      "fact_of_duress(john,marry,rescission(contract1),2001 year 03 monty 21 day)"
+    ]
+  },
+  {
+    "input": "bob and chuck entered into a phone purchase contract at the price of 12237630 dollars on 08/March/1998. But chuck rescinded the contract because chuck is a minor on 27/August/2026. However, this rescission was made because bob threatened chuck on 21/March/2001. It is because bob would like to sell the phone to frank in the higher price.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "chuck",
+      "purchase_product": "phone",
+      "purchase_price": "12237630 dollars",
+      "purchase_date": "1998 year 03 monty 08 day",
+      "contract_name": "phone purchase contract",
+      "rescinder": "chuck",
+      "rescind_date": "2026 year 08 monty 27 day",
+      "threatener": "bob",
+      "victim": "chuck",
+      "duress_date": "2001 year 03 monty 21 day",
+      "minor": "chuck",
+      "potential_buyer": "frank"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(chuck,bob,phone,12237630 dollars,1998 year 03 monty 08 day,phone purchase contract)",
+      "minor(chuck)",
+      "manifestation_fact(rescission(phone purchase contract),chuck,bob,2026 year 08 monty 27 day)",
+      "fact_of_duress(bob,chuck,rescission(phone purchase contract),2001 year 03 monty 21 day)"
+    ]
+  },
+  {
+    "input": "chuck and bob entered into a phone purchase contract at the price of 12237630 dollars by contract3 on 08/March/1998. But chuck rescinded contract3 because chuck is a minor on 27/August/2026.\n",
+    "entities": {
+      "seller": "bob",
+      "buyer": "chuck",
+      "purchase_product": "phone",
+      "purchase_price": "12237630 dollars",
+      "purchase_date": "1998 year 03 monty 08 day",
+      "contract_name": "contract3",
+      "rescinder": "chuck",
+      "rescind_date": "2026 year 08 monty 27 day",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "chuck",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(chuck,bob,phone,12237630 dollars,1998 year 03 monty 08 day,contract3)",
+      "minor(chuck)",
+      "manifestation_fact(rescission(contract3),chuck,bob,2026 year 08 monty 27 day)"
+    ]
+  },
+  {
+    "input": "John purchases a laptop from Sarah at the cost of 8000 GBP through agreement1 on 2/January/2022, but John terminates agreement1 because Sarah failed to deliver the laptop on time.\n",
+    "entities": {
+      "seller": "sarah",
+      "buyer": "john",
+      "purchase_product": "laptop",
+      "purchase_price": "8000 GBP",
+      "purchase_date": "2022 year 01 monty 02 day",
+      "contract_name": "agreement1",
+      "rescinder": "john",
+      "rescind_date": "_",
+      "threatener": "_",
+      "victim": "_",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(john,sarah,laptop,8000 GBP,2022 year 01 monty 02 day,agreement1)",
+      "manifestation_fact(rescission(agreement1),john,sarah,_)"
+    ]
+  },
+  {
+    "input": "Emma buys a camera from Michael at the price of 9000 EUR by agreement2 on 20/April/2021, but Emma cancels agreement2 due to Michael's duress.\n",
+    "entities": {
+      "seller": "michael",
+      "buyer": "emma",
+      "purchase_product": "camera",
+      "purchase_price": "9000 EUR",
+      "purchase_date": "2021 year 04 monty 20 day",
+      "contract_name": "agreement2",
+      "rescinder": "emma",
+      "rescind_date": "_",
+      "threatener": "michael",
+      "victim": "emma",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "_"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(emma,michael,camera,9000 EUR,2021 year 04 monty 20 day,agreement2)",
+      "manifestation_fact(rescission(agreement2),emma,michael,_)",
+      "fact_of_duress(michael,emma,rescission(agreement2),_)"
+    ]
+  },
+  {
+    "input": "craig and chuch entered into a machine purchase agreement on 10/May/2020. The rescission of the agreement was made because craig threatened chuck. It is because craig would like to sell the machine to alice in the higher price.\n",
+    "entities": {
+      "seller": "craig",
+      "buyer": "chuch",
+      "purchase_product": "machine",
+      "purchase_price": "_",
+      "purchase_date": "2020 year 05 month 10 day",
+      "contract_name": "machine purchase agreement",
+      "rescinder": "craig",
+      "rescind_date": "_",
+      "threatener": "craig",
+      "victim": "chuck",
+      "duress_date": "_",
+      "minor": "_",
+      "potential_buyer": "alice"
+    },
+    "facts": [
+      "agreement_of_purchase_contract(craig,chuch,machine,_,2020 year 05 month 10 day,machine purchase agreement)",
+      "manifestation_fact(rescission(machine purchase agreement),craig,chuch,_)",
+      "fact_of_duress(craig,chuck,rescission(machine purchase agreement),_)"
+    ]
+  }
+]
